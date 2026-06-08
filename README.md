@@ -106,8 +106,8 @@ stm32-log-analyzer/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stm32-log-analyzer.git
-cd stm32-log-analyzer
+git clone https://github.com/AbdElMoemenMkadem/STM32-Log-Analyzer.git
+cd STM32-Log-Analyzer
 ```
 
 ### 2. Install Dependencies
