@@ -9,24 +9,30 @@ echo  ║             Powered by Groq AI (Llama 3.1)          ║
 echo  ╚══════════════════════════════════════════════════════╝
 echo.
 
-REM ─── Detect Python (checks PATH and common install locations) ───
+REM ─── Detect Python (checks local AppData path first) ────────────
 set PYTHON_EXE=
 
-REM Try Python from PATH first (recommended)
+REM 1. Prioritize your local Python 3.11 installation path
+if exist "C:\Users\ASUS\AppData\Local\Programs\Python\Python311\python.exe" (
+    set PYTHON_EXE="C:\Users\ASUS\AppData\Local\Programs\Python\Python311\python.exe"
+    goto :python_found
+)
+
+REM 2. Fallback: Search in PATH (if properly configured)
 where python >nul 2>&1
 if %errorlevel% == 0 (
     set PYTHON_EXE=python
     goto :python_found
 )
 
-REM Try py launcher (Windows Python Launcher)
+REM 3. Fallback: Try py launcher
 where py >nul 2>&1
 if %errorlevel% == 0 (
     set PYTHON_EXE=py
     goto :python_found
 )
 
-REM Common install paths as fallback
+REM 4. Fallback: Check other typical installation locations
 for %%P in (
     "%LOCALAPPDATA%\Programs\Python\Python313\python.exe"
     "%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
