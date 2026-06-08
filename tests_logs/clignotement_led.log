@@ -1,0 +1,39 @@
+20:50:14 : UR connection mode is defined with the SWrst reset mode
+20:50:14 : ST-LINK SN  : 0668FF303435554157102434
+20:50:14 : ST-LINK FW  : V2J46M33
+20:50:14 : Board       : NUCLEO-F446RE
+20:50:14 : Voltage     : 3.16V
+20:50:14 : SWD freq    : 4000 KHz
+20:50:14 : Connect mode: Normal
+20:50:14 : Reset mode  : Software reset
+20:50:14 : Device ID   : 0x421
+20:50:14 : Revision ID : Rev A
+20:50:14 : Debug in Low Power mode is not supported for this device.
+20:50:14 : UPLOADING OPTION BYTES DATA ...
+20:50:14 :   Bank          : 0x00
+20:50:14 :   Address       : 0x40023c14 
+20:50:14 :   Size          : 4 Bytes
+20:50:14 : UPLOADING ...
+20:50:14 :   Size          : 1024 Bytes
+20:50:14 :   Address       : 0x8000000
+20:50:14 : Read progress:
+20:50:14 : Data read successfully
+20:50:14 : Time elapsed during the read operation is: 00:00:00.008
+20:50:18 : Opening and parsing file: Clignotement_led_PA5.hex
+20:50:18 : Memory Programming ...
+20:50:18 :   File          : Clignotement_led_PA5.hex
+20:50:18 :   Size          : 8.36 KB 
+20:50:18 :   Address       : 0x08000000
+20:50:18 : Erasing memory corresponding to segment 0:
+20:50:18 : Erasing internal memory sector 0
+20:50:18 : Download in Progress:
+20:50:18 : File download complete
+20:50:18 : Time elapsed during download operation: 00:00:00.386
+20:50:18 : Verifying...
+20:50:18 : Read progress:
+20:50:18 : Time elapsed during verifying operation: 00:00:00.061
+20:50:18 : Download verified successfully
+20:50:18 : RUNNING Program ... 
+20:50:18 :   Address:      : 0x08000000
+20:50:18 : Application is running, Please Hold on...
+20:50:18 : Start operation achieved successfully

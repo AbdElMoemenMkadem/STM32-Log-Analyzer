@@ -1,0 +1,22 @@
+10:15:01 : STM32CubeProgrammer API v2.15.0
+10:15:02 : ST-LINK SN  : 003D00123456789ABCDEF012
+10:15:02 : ST-LINK FW  : V2J45M30
+10:15:02 : Board       : STM32F4DISCOVERY
+10:15:03 : Voltage     : 3.27V
+10:15:03 : SWD freq    : 8000 KHz
+10:15:03 : Connect mode: Under Reset
+10:15:04 : Connection in Progress ...
+10:15:04 : Getting device ID ...
+10:15:04 : Device ID   : 0x413
+10:15:05 : Chip CPU    : Cortex-M4
+10:15:05 : Flash size  : 1 MB
+10:15:05 : RAM size    : 192 KB
+10:15:06 : Warning: Low voltage detected on VDD (2.98V). Minimum recommended is 3.0V.
+10:15:07 : Erasing memory ...
+10:15:08 : Error: Memory erase failed at sector 5 (address 0x08060000)
+10:15:08 : Error: Flash write protection enabled on sectors 4-7. Cannot erase.
+10:15:09 : Retrying erase operation ...
+10:15:10 : Error: Retry failed. Operation aborted.
+10:15:11 : Warning: ST-LINK overheating detected. Please check USB power delivery.
+10:15:12 : Disconnecting ...
+10:15:12 : Error: Unable to disconnect cleanly. Target may be in unknown state.

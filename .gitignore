@@ -1,0 +1,46 @@
+# ─── Sensitive files ────────────────────────────────────────────
+# API keys — NEVER version this file
+.env
+
+# ─── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ─── Generated reports ──────────────────────────────────────────
+# JSON reports are locally generated data — not versionned
+output_reports/*.json
+
+# ─── IDE / Editor tools ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Python distribution / Build ────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ─── PyInstaller (packaging) ────────────────────────────────────
+*.spec
+
+# ─── OS / System files ──────────────────────────────────────────
+*.log
+!tests_logs/*.log

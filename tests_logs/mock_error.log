@@ -1,0 +1,14 @@
+10:42:01 : STM32CubeProgrammer API v2.14.0
+10:42:02 : ST-LINK SN  : 066DFF323535474B43105123
+10:42:02 : ST-LINK FW  : V2J39M27
+10:42:02 : Board       : NUCLEO-F446RE
+10:42:02 : Voltage     : 3.28V
+10:42:04 : SWD freq    : 4000 KHz
+10:42:04 : Connect mode: Normal
+10:42:04 : Connection in Progress ...
+10:42:05 : Getting device ID ...
+10:42:05 : Device ID   : 0x421
+10:42:06 : Error: Data read failed
+10:42:06 : Error: Flash programming aborted.
+10:42:07 : Warning: Device is protected (RDP Level 1 active). Please remove protection first.
+10:42:08 : Error: Initialisation of the device failed.
